@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>MiniWiki Elden Ring</title>
+</head>
+
+<body>
+    <h1 class="titulo">Mini Wiki - Elden Ring</h1>
+
+    <div class="borda">
+        <!-- ==========Cartas============== -->
+        <div class="cartas">
+            <div class="carta" onclick="mostrarBoss('boss1')">
+                <img src="imagens/EldenRingTarnished.jpg">
+                <h1>Maculado</h1>
+            </div>
+
+            <div class="carta" onclick="mostrarBoss('boss2')">
+                <img src="imagens/EldenRingBoss2.jpg">
+                <h1>Radahn</h1>
+            </div>
+
+            <div class="carta" onclick="mostrarBoss('boss3')">
+                <img src="imagens/EldenRingBoss3.jpg">
+                <h1>Malekith</h1>
+            </div>
+
+            <div class="carta" onclick="mostrarBoss('boss4')">
+                <img src="imagens/EldenRingBoss4.png">
+                <h1>Malenia</h1>
+            </div>
+
+            <div class="carta" onclick="mostrarBoss('boss5')">
+                <img src="imagens/EldenRingBoss5.png">
+                <h1>Radagon</h1>
+            </div>
+        </div>
+
+        <!-- Instrução Inferior -->
+
+        <div class="informacoes">
+            <h2 id="nomeBoss">Selecione uma Carta</h2>
+
+            <p id="descricaoBoss">
+                Clique em uma carta para ler a história desse personagem
+            </p>
+
+            <img id="imagemBoss" src="" style="display: none;">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+/* Fundo */
+body{
+    background-image: url(imagens/Pergaminho.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: goldenrod;
+    margin: 0;
+}
+
+/*Título*/
+.titulo{
+    text-align: center;
+    color: goldenrod;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.borda{
+    background: rgba(255, 255, 255, 0.12);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*.cartas*/
+.cartas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carta{
+    width: 250px;
+    background: rgba(0, 0, 0, 0.65);
+    border: 2px solid goldenrod;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.carta:hover{
+    box-shadow: 0 0 15px goldenrod;
+}
+
+.carta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid goldenrod;
+    margin-bottom: 10px;
+}
+
+/* Painel inferior de informações */
+.info {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid goldenrod;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.info h2 {
+    color: goldenrod;
+    margin-top: 0;
+}
